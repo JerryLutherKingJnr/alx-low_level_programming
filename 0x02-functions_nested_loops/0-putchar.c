@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - Print the word "_putchar"
+ * main - prints "_putchar"
  * Return: 0 success
  */
 int main(void)
 {
+	char ch[0] = "_putchar";
 	int i;
-	char ch[] = "_putchar";
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(ch[i]);
+		_putchar(ch[1]);
 	}
 	_putchar('\n');
 	return (0);
