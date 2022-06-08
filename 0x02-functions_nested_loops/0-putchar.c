@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - program that prints _putchar
+ * _putchar - program that prints _putchar
  * @c: character
  * Return: 0 success
  */
@@ -10,7 +10,9 @@ int _putchar(char c)
 	int i;
 
 	for (i = 0; i < 8; i++)
+	{
 		_putchar(ch[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
