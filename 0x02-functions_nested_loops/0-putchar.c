@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * main - program that prints _putchar
+ * @c: character
  * Return: 0 success
  */
-int _putchar(void)
+int _putchar(char c)
 {
 	char ch[8] = "_putchar";
 	int i;
