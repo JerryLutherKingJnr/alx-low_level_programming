@@ -2,14 +2,15 @@
 #include <stdio.h>
 
 /**
- * more numbers - Print numbers between 0 to 14 inclusive
+ * more_numbers - Print numbers between 0 to 14 inclusive
  *
  * Return: Void.
- **/
+ */
 void more_numbers(void)
 {
 	int i;
 	int x;
+
 	for (x = 0; x < 10; x++)
 	{
 		i = 0;
@@ -19,7 +20,7 @@ void more_numbers(void)
 			{
 				_putchar(i / 10 + '0');
 			}
-			_putchar(i % 10 + '0'); 
+			_putchar(i % 10 + '0');
 			i++;
 		}
 		_putchar('\n');
