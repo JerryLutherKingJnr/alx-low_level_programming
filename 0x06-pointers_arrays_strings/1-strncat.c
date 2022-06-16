@@ -2,9 +2,9 @@
 
 /**
  * _strncpy - two words
- * @dest : pointer to char parameters
- * @src : pointer to char parameters
- * @n : int parameters
+ * @dest : pointer to char param
+ * @src : pointer to char param
+ * @n : int param
  * Return: *dest
  */
 
